@@ -11,4 +11,11 @@ using namespace kmgmt;
 kepler_m::kepler_m() { }
 kepler_m::~kepler_m() { }
 
-void kepler_m::runK() {}
+void kepler_m::runK() 
+{
+	kepler_m obj;
+	unsigned int option;
+
+	keplerFrontPage(&option);
+
+}

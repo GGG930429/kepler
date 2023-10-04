@@ -10,8 +10,8 @@ using namespace kmgmt;
 
 int main()
 {
-    kepler_m mgmt;
+    kepler_m KEPo;
 
-    mgmt.printTerminalLog(LOG_LEVEL_1, "kepler is runing . . . ");
-    mgmt.runK();
+    KEPo.printTerminalLog(LOG_LEVEL_1, "kepler is runing . . . ");
+    KEPo.runK();
 }

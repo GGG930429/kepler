@@ -26,6 +26,7 @@ namespace nkui
         ~kscreen();
 
         void showInTerminal(string text_log);
+        auto getfromTerminal();
 
     private:
 
@@ -58,7 +59,11 @@ namespace nkui
 
         kui();
         ~kui();
-        void printTerminalLog(int log_level, string log_info);
+
+        void keplerFrontPage(unsigned int* k_option);
+        void printTerminalLog(unsigned int log_level, string log_info);
+
+        auto getKeplervalue(unsigned int log_level);
 
     private:
 
