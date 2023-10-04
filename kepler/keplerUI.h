@@ -8,11 +8,12 @@
 #include <fstream>
 #include "kLibMng.h"
 
-#define LOG_LEVEL_1           100                /// Show at terminal
-#define LOG_LEVEL_2           200                /// Save as a file
-#define LOG_FILE_NAME         "keplerlog.txt"   /// Name of log file 
+#define LOG_LEVEL_1       100                                /// Show at terminal
+#define LOG_LEVEL_2       200                                /// Save as a file
 
-#define KEPLER_RSC_PATH       "krsc"            /// Resource path
+#define KEPLER_RSC_PATH   "krsc"                             /// Resource path
+
+#define FILE_LOG_NAME     KEPLER_RSC_PATH "/keplerlog.txt"   /// Name of log file 
 
 namespace nkui
 {

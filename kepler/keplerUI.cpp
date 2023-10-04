@@ -23,7 +23,7 @@ void klog::saveAsAFile(string text_log)
 {
 	ofstream k_log_file;
 
-	k_log_file.open( KEPLER_RSC_PATH LOG_FILE_NAME );
+	k_log_file.open(FILE_LOG_NAME);
 	k_log_file << "\n " << text_log;
 	k_log_file.close();
 

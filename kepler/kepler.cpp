@@ -13,6 +13,5 @@ int main()
     kepler_m mgmt;
 
     mgmt.printTerminalLog(LOG_LEVEL_1, "kepler is runing . . . ");
-    mgmt.printTerminalLog(LOG_LEVEL_2, "kepler is runing . . . ");
     mgmt.runK();
 }
