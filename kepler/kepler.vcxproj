@@ -128,6 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="kepler.cpp" />
+    <ClCompile Include="keplerUI.cpp" />
+    <ClCompile Include="keplerManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="keplerManager.h" />
+    <ClInclude Include="keplerUI.h" />
+    <ClInclude Include="kLibMng.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
